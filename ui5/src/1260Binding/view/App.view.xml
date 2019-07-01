@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="project.controller.App"
+   xmlns="sap.m"
+   xmlns:widget="project.widget"
+   xmlns:mvc="sap.ui.core.mvc">
+	<VBox id="container" >
+		<Button text="Test" press=".onTest"/> 
+		<Input value="{/id}"/> 
+		<widget:LabelInput label="label" value="{/id}"/> 
+	</VBox>
+</mvc:View>

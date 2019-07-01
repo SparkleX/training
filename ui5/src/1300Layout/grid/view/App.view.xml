@@ -1,0 +1,33 @@
+<mvc:View 
+	controllerName="next.app.controller.App"
+	xmlns:m="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:widget="next.core.widget"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core">
+	<l:Grid>
+		<m:VBox>
+			<m:Label text="1"/>
+			<m:Input value="1"/>
+			<m:Input value="1"/>
+			<m:Label text="1"/>
+			<m:Button text="1"/>
+			<m:Input value="1"/>
+		</m:VBox>
+		<m:VBox>
+			<m:Label text="2"/>
+			<m:Input value="2"/>
+			<m:Input value="2"/>
+			<m:Label text="2"/>
+		</m:VBox>
+		<m:VBox>
+			<m:Label text="3"/>
+			<m:Input value="3"/>
+			<m:Input value="3"/>
+			<m:Label text="3"/>
+			<m:Button text="3"/>
+			<m:Input value="3"/>
+		</m:VBox>
+	</l:Grid>
+</mvc:View>
